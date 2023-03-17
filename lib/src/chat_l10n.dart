@@ -200,7 +200,7 @@ class ChatL10nZhCN extends ChatL10n {
   /// override only a couple of properties, otherwise create a new class
   /// which extends [ChatL10n]
   const ChatL10nZhCN({
-    super.attachmentButtonAccessibilityLabel = '发送媒体文件',
+    super.attachmentButtonAccessibilityLabel = '清空聊天记录',
     super.emptyChatPlaceholder = '暂无消息',
     super.fileButtonAccessibilityLabel = '文件',
     super.inputPlaceholder = '输入消息',

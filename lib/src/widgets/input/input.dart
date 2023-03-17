@@ -64,7 +64,7 @@ class _InputState extends State<Input> {
     },
   );
 
-  bool _sendButtonVisible = false;
+  bool _sendButtonVisible = true;
   late TextEditingController _textController;
 
   @override
@@ -73,7 +73,7 @@ class _InputState extends State<Input> {
 
     _textController =
         widget.options.textEditingController ?? InputTextFieldController();
-    _handleSendButtonVisibilityModeChange();
+    // _handleSendButtonVisibilityModeChange();
   }
 
   @override
@@ -81,7 +81,7 @@ class _InputState extends State<Input> {
     super.didUpdateWidget(oldWidget);
     if (widget.options.sendButtonVisibilityMode !=
         oldWidget.options.sendButtonVisibilityMode) {
-      _handleSendButtonVisibilityModeChange();
+      // _handleSendButtonVisibilityModeChange();
     }
   }
 
